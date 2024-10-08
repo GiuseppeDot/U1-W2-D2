@@ -73,12 +73,19 @@ if (totalShoppingCart > 50) {
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
+let valueX = false;
+console.log("il valore è un/una: ", typeof valueX);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+let num1 = 479555855854786256584545556516514515555;
+if (num1 % 2 === 0) {
+  console.log("PARI!");
+} else {
+  console.log("DISPARI!");
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -104,6 +111,8 @@ const me = {
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
+
+// me.push(city);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
